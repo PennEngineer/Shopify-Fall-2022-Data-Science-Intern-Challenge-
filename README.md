@@ -24,7 +24,6 @@ FROM Orders
 INNER JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
 WHERE Orders.ShipperID=1;
 
-ShipperName	COUNT(Orders.ShipperID)
 Speedy Express	54
 
 B) What is the last name of the employee with the most orders?
@@ -35,7 +34,6 @@ INNER JOIN Employees ON Orders.EmployeeID = Employees.EmployeeID
 GROUP BY Orders.EmployeeID
 ORDER BY COUNT(Orders.EmployeeID) DESC LIMIT 1;
 
-LastName	COUNT(Orders.EmployeeID)
 Peacock	40
 
 C) What product was ordered the most by customers in Germany?
@@ -49,5 +47,4 @@ WHERE Customers.Country = "Germany"
 GROUP BY Products.ProductName
 ORDER BY COUNT(Products.ProductName) DESC LIMIT 1;
 
-ProductName	COUNT(Products.ProductName)
 Gorgonzola Telino	5
