@@ -1,6 +1,8 @@
 # Shopify-Fall-2022-Data-Science-Intern-Challenge-
 Fall 2022 Data Science Intern Challenge 
 
+DataSet: https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64DfiDMNiR41LM/edit#gid=0
+
 <Part 1>
 
 A) Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
