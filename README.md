@@ -7,7 +7,7 @@ DataSet: https://docs.google.com/spreadsheets/d/16i38oonuX1y1g7C_UAmiK9GkY7cS-64
 
 A) Think about what could be going wrong with our calculation. Think about a better way to evaluate this data. 
 
-The AOV of $3145.13 was calculated by calculating the mean of order_amount column. This is however not the best way as mean is senstitive to outliers such as order ID #17 where the order_amount is 704000 while the majority of the order_amount in the data set is nowhere near that.
+The AOV of $3145.13 was calculated by calculating the mean of order_amount column. This is however not the best way as mean is sensitive to outliers such as order ID #17 where the order_amount is 704000 while the majority of the order_amount in the data set is nowhere near that.
 
 B) What metric would you report for this dataset?
 
