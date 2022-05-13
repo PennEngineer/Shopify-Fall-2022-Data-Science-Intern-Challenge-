@@ -19,6 +19,8 @@ $284.0
 
 <Part 2>
 
+Test out SQL statement: https://www.w3schools.com/SQL/TRYSQL.ASP?FILENAME=TRYSQL_SELECT_ALL
+
 A) How many orders were shipped by Speedy Express in total?
 
 SELECT Shippers.ShipperName, COUNT(Orders.ShipperID)
